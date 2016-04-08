@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET_SocialMedia.Web", "ASPNET_SocialMedia.Web\ASPNET_SocialMedia.Web.csproj", "{93989424-9138-4007-B1C6-94ED28D5B89D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET_SocialMedia.Web.Tests", "ASPNET_SocialMedia.Web.Tests\ASPNET_SocialMedia.Web.Tests.csproj", "{79DDB2FB-0E6D-44B7-AF16-E17C8E7F233A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET_SocialMedia.Core", "ASPNET_SocialMedia.Core\ASPNET_SocialMedia.Core.csproj", "{C90E4A05-6C31-4E66-856E-7FFB75DC0537}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93989424-9138-4007-B1C6-94ED28D5B89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93989424-9138-4007-B1C6-94ED28D5B89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93989424-9138-4007-B1C6-94ED28D5B89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93989424-9138-4007-B1C6-94ED28D5B89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79DDB2FB-0E6D-44B7-AF16-E17C8E7F233A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DDB2FB-0E6D-44B7-AF16-E17C8E7F233A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DDB2FB-0E6D-44B7-AF16-E17C8E7F233A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DDB2FB-0E6D-44B7-AF16-E17C8E7F233A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90E4A05-6C31-4E66-856E-7FFB75DC0537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90E4A05-6C31-4E66-856E-7FFB75DC0537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90E4A05-6C31-4E66-856E-7FFB75DC0537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90E4A05-6C31-4E66-856E-7FFB75DC0537}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
