@@ -49,6 +49,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,41 +58,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationUser.cs" />
-    <Compile Include="Comment.cs" />
-    <Compile Include="CommentUser.cs" />
-    <Compile Include="Focus.cs" />
-    <Compile Include="FollowRequest.cs" />
-    <Compile Include="FollowUser.cs" />
-    <Compile Include="Goal.cs" />
-    <Compile Include="GoalStatus.cs" />
-    <Compile Include="GoalUpdate.cs" />
-    <Compile Include="Group.cs" />
-    <Compile Include="GroupComment.cs" />
-    <Compile Include="GroupCommentUser.cs" />
-    <Compile Include="GroupGoal.cs" />
-    <Compile Include="GroupInvitation.cs" />
-    <Compile Include="GroupRequest.cs" />
-    <Compile Include="GroupUpdate.cs" />
-    <Compile Include="GroupUpdateSupport.cs" />
-    <Compile Include="GroupUpdateUser.cs" />
-    <Compile Include="GroupUser.cs" />
-    <Compile Include="Metric.cs" />
-    <Compile Include="NotificationType.cs" />
-    <Compile Include="ProfilePic.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\CommentUser.cs" />
+    <Compile Include="Models\Focus.cs" />
+    <Compile Include="Models\FollowRequest.cs" />
+    <Compile Include="Models\FollowUser.cs" />
+    <Compile Include="Models\Goal.cs" />
+    <Compile Include="Models\GoalStatus.cs" />
+    <Compile Include="Models\GoalUpdate.cs" />
+    <Compile Include="Models\Group.cs" />
+    <Compile Include="Models\GroupComment.cs" />
+    <Compile Include="Models\GroupCommentUser.cs" />
+    <Compile Include="Models\GroupGoal.cs" />
+    <Compile Include="Models\GroupInvitation.cs" />
+    <Compile Include="Models\GroupRequest.cs" />
+    <Compile Include="Models\GroupUpdate.cs" />
+    <Compile Include="Models\GroupUpdateSupport.cs" />
+    <Compile Include="Models\GroupUpdateUser.cs" />
+    <Compile Include="Models\GroupUser.cs" />
+    <Compile Include="Models\Metric.cs" />
+    <Compile Include="Models\NotificationType.cs" />
+    <Compile Include="Models\ProfilePic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistrationToken.cs" />
-    <Compile Include="SecurityToken.cs" />
-    <Compile Include="Support.cs" />
-    <Compile Include="SupportInvitation.cs" />
-    <Compile Include="Update.cs" />
-    <Compile Include="UpdateSupport.cs" />
-    <Compile Include="User.cs" />
-    <Compile Include="UserProfile.cs" />
+    <Compile Include="Models\RegistrationToken.cs" />
+    <Compile Include="Models\SecurityToken.cs" />
+    <Compile Include="Models\Support.cs" />
+    <Compile Include="Models\SupportInvitation.cs" />
+    <Compile Include="Models\Update.cs" />
+    <Compile Include="Models\UpdateSupport.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserProfile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+    <None Include="Models\packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

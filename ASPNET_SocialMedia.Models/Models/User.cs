@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-using ASPNET_SocialMedia.Core.Common;
+﻿
 
 namespace ASPNET_SocialMedia.Model.Models
 {
