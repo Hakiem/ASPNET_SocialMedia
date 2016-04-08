@@ -101,10 +101,33 @@
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ASPNET_SocialMediaEntities.cs" />
+    <Compile Include="Repository\CommentRepository.cs" />
+    <Compile Include="Repository\CommentUserRepository.cs" />
+    <Compile Include="Repository\FocusRepository.cs" />
+    <Compile Include="Repository\FollowRequestRepository.cs" />
+    <Compile Include="Repository\FollowUserRepository.cs" />
+    <Compile Include="Repository\GoalRepository.cs" />
+    <Compile Include="Repository\GoalStatusRepository.cs" />
+    <Compile Include="Repository\GroupCommentRepository.cs" />
+    <Compile Include="Repository\GroupCommentUserRepository.cs" />
+    <Compile Include="Repository\GroupGoalRepository.cs" />
+    <Compile Include="Repository\GroupInvitationRepository.cs" />
+    <Compile Include="Repository\GroupRepository.cs" />
+    <Compile Include="Repository\GroupRequestRepository.cs" />
+    <Compile Include="Repository\GroupUpdateRepository.cs" />
+    <Compile Include="Repository\GroupUpdateSupportRepository.cs" />
+    <Compile Include="Repository\GroupUpdateUserRepository.cs" />
+    <Compile Include="Repository\GroupUserRepository.cs" />
+    <Compile Include="Repository\MetricRepository.cs" />
+    <Compile Include="Repository\SecurityTokenRepository.cs" />
+    <Compile Include="Repository\SupportInvitationRepository.cs" />
+    <Compile Include="Repository\SupportRepository.cs" />
+    <Compile Include="Repository\UpdateRepository.cs" />
+    <Compile Include="Repository\UpdateSupportRepository.cs" />
+    <Compile Include="Repository\UserProfileRepository.cs" />
+    <Compile Include="Repository\UserRepository.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ASPNET_SocialMedia.Models\ASPNET_SocialMedia.Models.csproj">
       <Project>{aaaaff90-a686-4a3a-87fc-cd432ce0f73d}</Project>

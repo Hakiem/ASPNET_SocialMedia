@@ -6,7 +6,7 @@ using ASPNET_SocialMedia.Model.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace SocialGoal.Data
+namespace ASPNET_SocialMedia.Data
 {
     public class GoalsSampleData : DropCreateDatabaseIfModelChanges<ASPNET_SocialMediaEntities>
     {
