@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET_SocialMedia.Web.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET_SocialMedia.Core", "ASPNET_SocialMedia.Core\ASPNET_SocialMedia.Core.csproj", "{C90E4A05-6C31-4E66-856E-7FFB75DC0537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET_SocialMedia.Data", "ASPNET_SocialMedia.Data\ASPNET_SocialMedia.Data.csproj", "{D202A18C-EECF-46AE-B151-796D9F8F8FB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C90E4A05-6C31-4E66-856E-7FFB75DC0537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C90E4A05-6C31-4E66-856E-7FFB75DC0537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C90E4A05-6C31-4E66-856E-7FFB75DC0537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D202A18C-EECF-46AE-B151-796D9F8F8FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D202A18C-EECF-46AE-B151-796D9F8F8FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D202A18C-EECF-46AE-B151-796D9F8F8FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D202A18C-EECF-46AE-B151-796D9F8F8FB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
