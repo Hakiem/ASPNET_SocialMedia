@@ -30,7 +30,32 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.1.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.1.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,12 +65,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\ApplicationUserConfiguration.cs" />
+    <Compile Include="Configuration\CommentConfiguration.cs" />
+    <Compile Include="Configuration\CommentUserConfiguration.cs" />
+    <Compile Include="Configuration\FocusConfiguration.cs" />
+    <Compile Include="Configuration\FollowRequestConfiguration.cs" />
+    <Compile Include="Configuration\FollowUserConfiguration.cs" />
+    <Compile Include="Configuration\GoalConfiguration.cs" />
+    <Compile Include="Configuration\GoalStatusConfiguration.cs" />
+    <Compile Include="Configuration\GoalUpdateConfiguration.cs" />
+    <Compile Include="Configuration\GroupCommentConfiguration.cs" />
+    <Compile Include="Configuration\GroupCommentUserConfguration.cs" />
+    <Compile Include="Configuration\GroupConfiguration.cs" />
+    <Compile Include="Configuration\GroupGoalConfiguration.cs" />
+    <Compile Include="Configuration\GroupInvitationConfiguration.cs" />
+    <Compile Include="Configuration\GroupRequestConfiguration.cs" />
+    <Compile Include="Configuration\GroupUpdateSupportConfiguration.cs" />
+    <Compile Include="Configuration\GroupUpdateUserConfiguration.cs" />
+    <Compile Include="Configuration\GroupUserConfiguration.cs" />
+    <Compile Include="Configuration\MetricConfiguration.cs" />
+    <Compile Include="Configuration\RegistrationTokenConfiguration.cs" />
+    <Compile Include="Configuration\SupportConfiguration.cs" />
+    <Compile Include="Configuration\SupportInvitationConfiguration.cs" />
+    <Compile Include="Configuration\UpdateConfiguration.cs" />
+    <Compile Include="Configuration\UpdateSupportConfiguration.cs" />
+    <Compile Include="Configuration\UserProfileConfiguration.cs" />
+    <Compile Include="GoalsSampleData.cs" />
+    <Compile Include="Infrastructure\DatabaseFactory.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
+    <Compile Include="Infrastructure\IDatabaseFactory.cs" />
+    <Compile Include="Infrastructure\IRepository.cs" />
+    <Compile Include="Infrastructure\IUnitOfWork.cs" />
+    <Compile Include="Infrastructure\Page.cs" />
+    <Compile Include="Infrastructure\RepositoryBase.cs" />
+    <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ASPNET_SocialMediaEntities.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Configuration\" />
-    <Folder Include="Infrastructure\" />
     <Folder Include="Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ASPNET_SocialMedia.Models\ASPNET_SocialMedia.Models.csproj">
+      <Project>{aaaaff90-a686-4a3a-87fc-cd432ce0f73d}</Project>
+      <Name>ASPNET_SocialMedia.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\PagedList.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
