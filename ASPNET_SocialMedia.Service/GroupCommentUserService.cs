@@ -1,11 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using ASPNET_SocialMedia.Data.Infrastructure;
+﻿using ASPNET_SocialMedia.Data.Infrastructure;
 using ASPNET_SocialMedia.Model.Models;
 using ASPNET_SocialMedia.Data.Repository;
-using ASPNET_SocialMedia.Core.Common;
-using ASPNET_SocialMedia.Service.Properties;
-using System;
 
 namespace ASPNET_SocialMedia.Service
 {

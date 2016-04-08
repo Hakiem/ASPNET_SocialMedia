@@ -30,6 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -67,6 +75,31 @@
     <Compile Include="UpdateSupportService.cs" />
     <Compile Include="UserProfileService.cs" />
     <Compile Include="UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ASPNET_SocialMedia.Core\ASPNET_SocialMedia.Core.csproj">
+      <Project>{c90e4a05-6c31-4e66-856e-7ffb75dc0537}</Project>
+      <Name>ASPNET_SocialMedia.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASPNET_SocialMedia.Data\ASPNET_SocialMedia.Data.csproj">
+      <Project>{d202a18c-eecf-46ae-b151-796d9f8f8fb7}</Project>
+      <Name>ASPNET_SocialMedia.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASPNET_SocialMedia.Models\ASPNET_SocialMedia.Models.csproj">
+      <Project>{aaaaff90-a686-4a3a-87fc-cd432ce0f73d}</Project>
+      <Name>ASPNET_SocialMedia.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASPNET_SocialMedia.Web.Core\ASPNET_SocialMedia.Web.Core.csproj">
+      <Project>{f46897ba-fece-4450-be41-a2c7e0ce2208}</Project>
+      <Name>ASPNET_SocialMedia.Web.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\PagedList.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -44,6 +44,9 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,16 +55,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionFilters\AntiForgeryTokenFilterProvider .cs" />
+    <Compile Include="ActionFilters\CompressResponseAttribute.cs" />
+    <Compile Include="ActionFilters\SocialGoalAuthorizeAttribute.cs" />
+    <Compile Include="Authentication\DefaultFormsAuthentication.cs" />
+    <Compile Include="Authentication\IFormsAuthentication.cs" />
+    <Compile Include="Authentication\UserAuthenticationTicketBuilder.cs" />
+    <Compile Include="AutoMapperConverters\PagedListConverter.cs" />
+    <Compile Include="Extensions\ControllerExtensions.cs" />
+    <Compile Include="Extensions\HtmlExtensions.cs" />
+    <Compile Include="Extensions\HtmlHelperExtensions.cs" />
+    <Compile Include="Extensions\SelectListEnumExtensions.cs" />
+    <Compile Include="Extensions\SelectListExtensions.cs" />
+    <Compile Include="Helpers\BaseHtmlHelper.cs" />
+    <Compile Include="Helpers\UserHtmlHelper.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\SocialGoalUser.cs" />
+    <Compile Include="Models\UserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ActionFilters\" />
-    <Folder Include="Authentication\" />
-    <Folder Include="AutoMapperConverters\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ASPNET_SocialMedia.Core\ASPNET_SocialMedia.Core.csproj">
       <Project>{c90e4a05-6c31-4e66-856e-7ffb75dc0537}</Project>
