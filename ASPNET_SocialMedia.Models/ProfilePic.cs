@@ -1,6 +1,6 @@
 ﻿using System.Web;
 
-namespace SocialGoal.Model.Models
+namespace ASPNET_SocialMedia.Model.Models
 {
     public class ProfilePic
     {

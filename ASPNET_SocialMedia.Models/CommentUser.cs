@@ -1,6 +1,6 @@
 ﻿
 using System;
-namespace SocialGoal.Model.Models
+namespace ASPNET_SocialMedia.Model.Models
 {
     public class CommentUser
     {

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SocialGoal.Model.Models
+namespace ASPNET_SocialMedia.Model.Models
 {
     public class UserProfile
     {

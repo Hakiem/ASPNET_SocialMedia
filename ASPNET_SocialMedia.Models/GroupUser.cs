@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SocialGoal.Model.Models
+namespace ASPNET_SocialMedia.Model.Models
 {
     public class GroupUser
     {

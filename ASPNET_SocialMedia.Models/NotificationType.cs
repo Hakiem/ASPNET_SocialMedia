@@ -1,5 +1,5 @@
 ﻿
-namespace SocialGoal.Model.Models
+namespace ASPNET_SocialMedia.Model.Models
 {
     public enum NotificationType
     {

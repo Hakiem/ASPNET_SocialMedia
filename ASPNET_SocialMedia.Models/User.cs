@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
-using SocialGoal.Core.Common;
+using ASPNET_SocialMedia.Core.Common;
 
-namespace SocialGoal.Model.Models
+namespace ASPNET_SocialMedia.Model.Models
 {
     //public class User
     //{
